@@ -12,6 +12,12 @@ var titles = map[string][]string{
 		`PRED-262 綺麗なお姉さんのデカ尻でキ○タマ空っぽになっても痴女られる！ ド迫力。追撃尻痴女フルコース 山岸逢花`,
 		`PRED-277 最高すぎた不倫生活。セックスも、日常も、全てでオレをダメにする愛人沼で溶かされて…。 山岸逢花`,
 	},
+	"Saeko": []string{
+		`ADN-219 となり妻 背徳の昼下がり 松下紗栄子`,
+		`IPX-461 出張先相部屋NTR 絶倫の部下に一晩中何度も中出しされた巨乳女上司 松下紗栄子`,
+		`SSPD-150 夫のいない数日間、夫の部下に抱かれ続けた記録。 松下紗栄子`,
+		`ATID-401 欲求不満な人妻は毎晩隣人に3時間抱かれています。 松下紗栄子`,
+	},
 }
 
 var counter = make(map[string]int)
@@ -28,4 +34,8 @@ func Nao() string {
 
 func Aika() string {
 	return getByName("Aika")
+}
+
+func Saeko() string {
+	return getByName("Saeko")
 }
